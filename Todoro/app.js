@@ -62,12 +62,11 @@ function storeTodoInLS(todo) {
 
 // Delete todo
 function deleteTodo(e) {
-  if (todos.children[0].classList.contains('todo-list')) {
-    e.target.className = 'todo-delete'; 
-    // Remove todo from LS
-    removeTodoInLS(e.target);
-    console.log(e.target);
+  if (e.target.classList.contains('todo-list')) {
+    e.target.className = 'todo-delete';
   }
+  // Remove todo from LS
+  removeTodoInLS(e.target);
 }
 
 // Delete todo from LS

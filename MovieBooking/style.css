@@ -23,6 +23,9 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 2rem 0;
+  padding: 0.5rem 1.5rem;
+  background: #201f2e;
+  border-radius: 5px;
 }
 
 .seat-info li:not(:last-child) {
@@ -63,12 +66,28 @@ body {
   margin-left: 1rem;
 }
 
+.row .seat:not(.occupied) {
+  cursor: pointer;
+}
+
+.row .seat:not(.occupied):hover {
+  transform: scale(1.2, 1.2);
+}
+
 .seat {
   display: inline-block;
   width: 15px;
   height: 12px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #777;
-  margin: 2px;
+  background-color: #444451;
+  margin: 3px;
+}
+
+.selected {
+  background: #d9ce3f;
+}
+
+.occupied {
+  background: #f4f4f4;
 }

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+:root {
+  --selected-color: #d9ce3f;
+  --occupied-color: #f4f4f4;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -85,9 +90,14 @@ body {
 }
 
 .selected {
-  background: #d9ce3f;
+  background: var(--selected-color);
 }
 
 .occupied {
-  background: #f4f4f4;
+  background: var(--occupied-color);
+}
+
+#seat-count,
+#price {
+  color: var(--selected-color);
 }

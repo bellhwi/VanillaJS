@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Movie List</title>
+</head>
+<body>
+  <h1 class="mt-2">Movie List</h1>
+  <div id="form" class="mt-2">
+    <div>
+      <label for="title">Title</label>
+      <input id="title" type="text">
+    </div>
+    <div class="mt-1">
+      <label for="genre">Genre</label>
+      <input id="genre" type="text">
+    </div>
+    <div class="mt-1">
+      <label for="year">Year</label>
+      <input id="year" type="text">
+    </div>
+      <input type="submit" id="submit" class="mt-2"> 
+  </div>
+
+  <table class="mt-2">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody id="movie-list"></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>

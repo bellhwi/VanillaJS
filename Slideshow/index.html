@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Slideshow</title>
+</head>
+<body>
+  <!-- Slideshow container -->
+  <div id="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="slides fade">
+      <img src="img/spring.jpg">
+      <div class="caption">Spring</div>
+    </div>
+    
+    <div class="slides fade">
+      <img src="img/summer.jpg">
+      <div class="caption">Summer</div>
+    </div>
+    
+    <div class="slides fade">
+      <img src="img/fall.jpg">
+      <div class="caption">Fall</div>
+    </div>
+    
+    <div class="slides fade">
+      <img src="img/winter.jpg">
+      <div class="caption">Winter</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a id="prev" onclick="moveSlides(-1)">&#10094;</a>
+    <a id="next" onclick="moveSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- Dots -->
+  <div id="dots-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

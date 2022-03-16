@@ -5,3 +5,5 @@
 -Signup: Form validation
 
 -MovieBooking: Movie seat booking
+
+-MovieList: Add and delete movie

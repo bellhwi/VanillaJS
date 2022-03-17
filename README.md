@@ -9,3 +9,5 @@
 -MovieList: Add and delete movie
 
 -Slideshow: Simple slideshow with buttons and dots
+
+-Dragdrop: Drag and drop the image

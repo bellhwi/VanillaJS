@@ -1,6 +1,6 @@
 # Project List
 
--Todoro: Minimal todo list
+-Todoro: Todo list
 
 -Signup: Form validation
 
@@ -8,10 +8,8 @@
 
 -MovieList: Add and delete movie
 
--Slideshow: Simple slideshow with buttons and dots
+-Slideshow: Slideshow with buttons and dots
 
--Dragdrop: Drag and drop the image
+-Dragdrop: Drag and drop the image and text
 
--LandingPage: Landing page with menu bar & modal
-
--SortableList: Swapping list item by using drag & drop
+-Modal: Modal window for sign up

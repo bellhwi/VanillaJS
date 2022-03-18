@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Slider</title>
+</head>
+<body>
+  <div class="slider-container"> 
+    <div class="slide active">
+      <img src="https://dummyimage.com/600x370/ccc/&text=Slide 1">
+    </div>
+    <div class="slide">
+      <img src="https://dummyimage.com/600x370/ccc/&text=Slide 2">
+    </div>
+    <div class="slide">
+      <img src="https://dummyimage.com/600x370/ccc/&text=Slide 3">
+    </div>
+    <div class="slide">
+      <img src="https://dummyimage.com/600x370/ccc/&text=Slide 4">
+    </div>
+    <div class="control-container">
+      <button class="prev"><i class="fa fa-chevron-left"></i></button>
+      <div class="slide-indicator">
+        <span class="indicator active"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+      </div>
+      <button class="next"><i class="fa fa-chevron-right"></i></button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
